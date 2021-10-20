@@ -3,9 +3,15 @@ body {
     color: black;
 }
 
+#titulo {
+    font-family: fantasy;
+    color: #df1b35e0;
+    text-align: center;
+}
+
 #Sobre {
     text-align: left;
-    margin-right: 360px;
+    margin-right: 40%;
 }
 
 h2 {
@@ -25,7 +31,7 @@ p {
 }
 
 .texto-sobre {
-    margin: auto 0px 0px 15px;
+    margin: auto 0px 0px 5%;
 }
 
 .icon-heart {
@@ -37,8 +43,8 @@ p {
 .feitoPor {
     text-align: center;
     padding: 0px 0px 2px 0px;
-    margin-right: 130px;
-    margin-left: 130px;
+    margin-right: 40%;
+    margin-left: 40%;
     border-radius: 10px;
     background-color: lightBlue;
     color: white;
