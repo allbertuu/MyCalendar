@@ -10,7 +10,7 @@ body {
     text-align: center;
 }
 
-#Sobre {
+#About {
     text-align: left;
     margin-right: 40%;
 }
@@ -46,13 +46,13 @@ p {
     border-left: #df1b35e0 solid 2px;
 }
 
-#texto-rodape {
+#text-footer {
     text-align: center;
     margin-top: 2px;
     border: none;
 }
 
-.texto-sobre {
+.text-about {
     margin: auto 0px 0px 5%;
 }
 
