@@ -12,17 +12,19 @@ body {
     margin-bottom: -5px;
 }
 
-#About {
+#about {
     text-align: left;
     margin-right: 40%;
 }
 
 #menu {
-    text-align: center;
     border-radius: 10px;
     background-color: #df1b35e0;
-    margin: 0px 39% 0px 38.9%;
     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .menuItem {
@@ -30,8 +32,11 @@ body {
     font-family: cursive;
     font-weight: bold;
     font-size: 15px;
-    display: inline-block;
-    padding: 2px 5px 2px 5px;
+    display: inline;
+    padding: 5px;
+    margin: 0px;
+    position: relative;
+    border-bottom: 2px solid white;
 }
 
 h2 {
@@ -54,8 +59,9 @@ p {
     border-left: #df1b35e0 solid 2px;
 }
 
-footer {
-    margin-top: 80%;
+.footer {
+    position: relative;
+    text-align: center;
 }
 
 #text-footer {
@@ -81,7 +87,6 @@ footer {
 .feitoPor {
     text-align: center;
     padding: 0px 0px 3px;
-    margin-top: 30%;
     margin-right: 40%;
     margin-left: 40%;
     border-radius: 5px;
@@ -90,21 +95,13 @@ footer {
     font-family: cursive;
     font-weight: bold;
     font-size: 15px;
+    display: block;
 }
    
 .picInsta {
-    margin-top: -10px;
     padding: 2px;
     border-radius: 0 15px;
     background-color: #df1b35e0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 80px;
     height: 80px;
-}
-
-li {
-    position: relative;
-    display: inline-block;
 }
