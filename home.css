@@ -9,7 +9,8 @@ body {
     font-size: 80px;
     color: #df1b35e0;
     text-align: center;
-    margin-bottom: -5px;
+    margin-bottom: 25px;
+    margin-top: 0px;
 }
 
 #about {
@@ -17,7 +18,7 @@ body {
     margin-right: 40%;
 }
 
-#menu {
+#nav-menu {
     border-radius: 10px;
     background-color: #df1b35e0;
     padding: 5px;
@@ -25,16 +26,18 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.menuItem {
+.nav-menu-item {
     color: white;
     font-family: cursive;
     font-weight: bold;
     font-size: 15px;
     display: inline;
-    padding: 5px;
-    margin: 0px;
+    margin: 5px;
     position: relative;
     border-bottom: 2px solid white;
 }
@@ -62,6 +65,9 @@ p {
 .footer {
     position: relative;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #text-footer {
@@ -86,17 +92,15 @@ p {
 
 .feitoPor {
     text-align: center;
-    padding: 0px 0px 3px;
-    margin-right: 40%;
-    margin-left: 40%;
-    margin-bottom: 10px;
+    padding: 1px 6px 3px 5px;
     border-radius: 5px;
     background-color: #df1b35e0;
     color: white;
     font-family: cursive;
     font-weight: bold;
     font-size: 15px;
-    display: block;
+    width: fit-content;
+    margin-bottom: 0.5em;
 }
    
 .picInsta {
@@ -105,4 +109,12 @@ p {
     background-color: #df1b35e0;
     width: 80px;
     height: 80px;
+}
+
+.img-banner {
+    position: relative;
+}
+
+.banner {
+    display: flex;
 }
