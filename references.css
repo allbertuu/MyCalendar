@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: cursive;
+}
+
 .titulo {
     font-family: "Trebuchet MS", sans-serif;
     color: #df1b35e0;
@@ -12,6 +18,7 @@
     padding: 5px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     flex-direction: row;
     margin: 0px;
     position: fixed;
@@ -22,17 +29,26 @@
 
 .nav-menu-item {
     color: white;
-    font-family: cursive;
     font-weight: bold;
     font-size: 15px;
     display: inline;
-    margin: 2px 6px 5px;
+    margin-bottom: 2px;
+    padding: 2px 5px 3px;
+    position: relative;
+}
+
+.nav-menu-item-paginaAtual {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline;
+    margin-bottom: 2px;
     padding: 2px 5px;
     position: relative;
     border-bottom: 2px solid white;
 }
 
-a:hover {
+.nav-menu-item:hover, .nav-menu-item-paginaAtual:hover {
     background-color: rgb(255, 255, 255);
     color: #df1b35e0;
 }
