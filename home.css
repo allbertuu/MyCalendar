@@ -15,16 +15,22 @@ body {
     font-family: cursive;
 }
 
+h1, h2, p, #nav-menu, .simbolos {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.simbolos {
+    font-weight: bold;
+}
+
 h1 {
     color: #df1b35e0;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 4em;
     text-align: center;
     padding: 50px;
 }
 
 h2 {
-    font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
     font-size: 2em;
     color: #df1b35e0;
@@ -37,7 +43,6 @@ a {
 }
 
 p {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 1em;
 }
 
@@ -52,7 +57,6 @@ p {
     align-items: center;
     flex-direction: row;
     margin: 0px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -90,28 +94,30 @@ p {
     margin-bottom: 5%;
 }
 
+.box-title, .box-text {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
 .box-title {
     padding: 5px;
     padding-left: 10px;
-    background-color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     border-bottom: 5px solid #df1b35e0;
 }
 
 .box-text {
     color: rgba(0, 0, 0, 0.753);
-    padding: 10px;
-    padding-left: 15px;
-    background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    padding: 15px;
+    text-align: justify;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 /* 
     Rodapé
 */
-#footer {
+#credits-creator {
     position: relative;
     bottom: 0px;
     text-align: center;
@@ -120,12 +126,11 @@ p {
     align-items: center;
 }
 
-.text-footer {
+.subtitulo-credits-creator {
     text-align: center;
     margin-top: 2px;
     margin-bottom: 0px;
     border: none;
-    font-family: cursive;
     font-size: 15px;
     font-weight: bold;
 }
@@ -136,7 +141,7 @@ p {
     width: 20px;
 }
 
-.feitoPor {
+.titulo-credits-creator {
     text-align: center;
     padding: 1px 6px 3px 5px;
     border-radius: 5px;
@@ -157,10 +162,8 @@ p {
     height: 80px;
 }
 
-.img-banner {
-    position: relative;
-}
-
-.banner {
-    display: flex;
+#direitos {
+    clear: both;
+    text-align: center;
+    padding: 15px;
 }

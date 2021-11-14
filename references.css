@@ -15,16 +15,18 @@ body {
     font-family: cursive;
 }
 
+h1, h2, p, #nav-menu {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 h1 {
     color: #df1b35e0;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 4em;
     text-align: center;
     padding: 50px;
 }
 
 h2 {
-    font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
     font-size: 2em;
     color: #df1b35e0;
@@ -37,7 +39,6 @@ a {
 }
 
 p {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 1em;
 }
 
@@ -52,7 +53,6 @@ p {
     align-items: center;
     flex-direction: row;
     margin: 0px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -90,12 +90,15 @@ p {
     margin-bottom: 5%;
 }
 
+.box-title, .box-text {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
 .box-title {
     padding: 5px;
     padding-left: 10px;
-    background-color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     border-bottom: 5px solid #df1b35e0;
 }
 
@@ -103,7 +106,4 @@ p {
     color: rgba(0, 0, 0, 0.753);
     padding: 10px;
     padding-left: 15px;
-    background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
