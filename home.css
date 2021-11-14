@@ -1,29 +1,49 @@
+/* 
+    Limpar formatação
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+    Formatação geral
+*/
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(241, 240, 240, 0.452);
     color: black;
     font-family: cursive;
 }
 
-#titulo {
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 80px;
+h1 {
     color: #df1b35e0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 4em;
     text-align: center;
-    margin-bottom: 25px;
-    margin-top: 0px;
-    position: relative;
-    top: 50px;
+    padding: 50px;
 }
 
-#about {
-    text-align: left;
-    margin-right: 40%;
+h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #df1b35e0;
+    margin-bottom: 0px;
 }
 
-.text-about {
-    margin-left: 5%;
+a {
+    color: #df1b35e0;
+    text-decoration: none;
 }
 
+p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+/* 
+    Menu - Nav. bar
+*/
 #nav-menu {
     background-color: #df1b35e0;
     padding: 5px;
@@ -32,26 +52,21 @@ body {
     align-items: center;
     flex-direction: row;
     margin: 0px;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .nav-menu-item {
     color: white;
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 1em;
     display: inline;
     margin-bottom: 2px;
     padding: 2px 5px 3px;
-    position: relative;
 }
 
 .nav-menu-item-paginaAtual {
     color: white;
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 1em;
     display: inline;
     margin-bottom: 2px;
     padding: 2px 5px;
@@ -64,29 +79,39 @@ body {
     color: #df1b35e0;
 }
 
-
-h2 {
-    font-family: "Trebuchet MS", sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    color: #df1b35e0;
-    margin-bottom: 0px;
+/* 
+    Box
+*/
+#box-about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
 }
 
-a {
-    color: #df1b35e0;
-    text-decoration: none;
+.box-title {
+    padding: 5px;
+    padding-left: 10px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid #df1b35e0;
 }
 
-p {
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 20px;
-    border-left: #df1b35e0 solid 2px;
-    margin-top: 10px;
-    padding-left: 5px;
+.box-text {
+    color: rgba(0, 0, 0, 0.753);
+    padding: 10px;
+    padding-left: 15px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-.footer {
+/* 
+    Rodapé
+*/
+#footer {
     position: relative;
     bottom: 0px;
     text-align: center;
@@ -95,7 +120,7 @@ p {
     align-items: center;
 }
 
-#text-footer {
+.text-footer {
     text-align: center;
     margin-top: 2px;
     margin-bottom: 0px;
