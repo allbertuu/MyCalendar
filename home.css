@@ -1,5 +1,5 @@
 /* 
-    Limpar formatação
+*** Limpar formatação ***
 */
 * {
     margin: 0;
@@ -7,12 +7,13 @@
 }
 
 /* 
-    Formatação geral
+*** Formatação geral ***
 */
 body {
     background-color: rgba(241, 240, 240, 0.452);
     color: black;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
 }
 
 h1, h2, p, #nav-menu, .simbolos {
@@ -43,11 +44,11 @@ a {
 }
 
 p {
-    font-size: 1em;
+    text-align: justify;
 }
 
 /* 
-    Menu - Nav. bar
+*** Menu - Nav. bar ***
 */
 #nav-menu {
     background-color: #df1b35e0;
@@ -84,14 +85,14 @@ p {
 }
 
 /* 
-    Box
+*** Box ***
 */
 #box-about {
     display: flex;
     flex-direction: column;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-bottom: 5%;
+    width: 320px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 .box-title, .box-text {
@@ -115,19 +116,21 @@ p {
 }
 
 /* 
-    Rodapé
+*** Rodapé ***
 */
+#credits-creator, .subtitulo-credits-creator, .titulo-credits-creator, #direitos {
+    text-align: center;
+}
+
 #credits-creator {
     position: relative;
     bottom: 0px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .subtitulo-credits-creator {
-    text-align: center;
     margin-top: 2px;
     margin-bottom: 0px;
     border: none;
@@ -142,15 +145,13 @@ p {
 }
 
 .titulo-credits-creator {
-    text-align: center;
-    padding: 1px 6px 3px 5px;
+    padding: 2px 5px;
+    padding-bottom: 3px;
     border-radius: 5px;
     background-color: #df1b35e0;
     color: white;
-    font-family: cursive;
     font-weight: bold;
-    font-size: 15px;
-    width: fit-content;
+    font-size: 0.9em;
     margin-bottom: 0.5em;
 }
    
@@ -164,6 +165,6 @@ p {
 
 #direitos {
     clear: both;
-    text-align: center;
     padding: 15px;
+    color: #df1b35e0;
 }
