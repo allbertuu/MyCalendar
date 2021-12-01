@@ -10,41 +10,63 @@
 *** Formatação geral ***
 */
 body {
-    background-color: rgba(241, 240, 240, 0.452);
+    background-color: #f8f8f8;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
 }
 
+#banner {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: #df1b35e0 url(../Imagens/banner_menstruacao.jpg) no-repeat center;
+}
+
+#banner h1 {
+    padding: 0;
+    text-align: center;
+    line-height: 200px;
+}
+
+/*
+img.img-banner {
+    width: 100%;
+} */
+
+/* 
+*** Formatação elementos textuais ***
+*/
 h1, h2, p, #nav-menu, .simbolos {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
-.simbolos {
-    font-weight: bold;
+h1, h2, a {
+    color: #df1b35e0;
 }
 
 h1 {
-    color: #df1b35e0;
     font-size: 4em;
     text-align: center;
     padding: 50px;
 }
 
 h2 {
-    font-weight: bold;
     font-size: 2em;
-    color: #df1b35e0;
+    font-weight: bold;
     margin-bottom: 0px;
 }
 
 a {
-    color: #df1b35e0;
     text-decoration: none;
 }
 
 p {
     text-align: justify;
+}
+
+.simbolos {
+    font-weight: bold;
 }
 
 /* 
@@ -58,30 +80,51 @@ p {
     align-items: center;
     flex-direction: row;
     margin: 0px;
-    font-weight: bold;
 }
 
-.nav-menu-item {
+#nav-menu ul {
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
+
+#nav-menu ul li {
+    font-weight: bold;
     color: white;
     font-size: 1em;
-    display: inline;
-    margin-bottom: 2px;
     padding: 2px 5px 3px;
 }
 
-.nav-menu-item-paginaAtual {
+#nav-menu ul li a {
+    font-weight: bold;
     color: white;
     font-size: 1em;
-    display: inline;
     margin-bottom: 2px;
-    padding: 2px 5px;
-    position: relative;
-    border-bottom: 2px solid white;
+    padding: 3px 6px 4px;
+    text-decoration: none;
 }
 
-.nav-menu-item:hover, .nav-menu-item-paginaAtual:hover {
+#nav-menu ul li a:hover {
     background-color: rgb(255, 255, 255);
     color: #df1b35e0;
+    border-radius: 4px;
+}
+
+body.home #nav-menu a#home,
+body.calendar #nav-menu a#calendar,
+body.references #nav-menu a#references 
+{
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+    cursor: text;
+}
+
+body.home #nav-menu a#home:hover,
+body.calendar #nav-menu a#calendar:hover,
+body.references #nav-menu a#references:hover 
+{
+    background: none;
+    color: white;
 }
 
 /* 
@@ -92,12 +135,10 @@ p {
     flex-direction: column;
     width: 320px;
     margin: auto;
+    margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.box-title, .box-text {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border: #ebeaea solid 2px;
+    border-radius: 10px;
     background-color: white;
 }
 
@@ -111,8 +152,6 @@ p {
     color: rgba(0, 0, 0, 0.753);
     padding: 15px;
     text-align: justify;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 /* 
@@ -155,7 +194,7 @@ p {
     margin-bottom: 0.5em;
 }
    
-.picInsta {
+img.img-creator {
     padding: 2px;
     border-radius: 0 15px;
     background-color: #df1b35e0;

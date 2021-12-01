@@ -1,5 +1,5 @@
 /* 
-    Limpar formatação
+*** Limpar formatação ***
 */
 * {
     margin: 0;
@@ -7,44 +7,50 @@
 }
 
 /* 
-    Formatação geral
+*** Layout ***
 */
 body {
-    background-color: rgba(241, 240, 240, 0.452);
+    background-color: #f8f8f8;
     color: black;
-    font-family: cursive;
-}
-
-h1, h2, p, #nav-menu {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-h1 {
+/* 
+*** Formatação elementos textuais ***
+*/
+h1, h2, a {
     color: #df1b35e0;
+}
+
+h1 {
     font-size: 4em;
     text-align: center;
     padding: 50px;
 }
 
 h2 {
-    font-weight: bold;
     font-size: 2em;
-    color: #df1b35e0;
+    font-weight: bold;
     margin-bottom: 0px;
 }
 
 a {
-    color: #df1b35e0;
     text-decoration: none;
 }
 
 p {
-    font-size: 25px;
-    padding: 10px
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.simbolos {
+    font-weight: bold;
 }
 
 /* 
-    Menu - Nav. bar
+*** Menu - Nav. bar ***
 */
 #nav-menu {
     background-color: #df1b35e0;
@@ -54,34 +60,55 @@ p {
     align-items: center;
     flex-direction: row;
     margin: 0px;
-    font-weight: bold;
 }
 
-.nav-menu-item {
+#nav-menu ul {
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
+
+#nav-menu ul li {
+    font-weight: bold;
     color: white;
     font-size: 1em;
-    display: inline;
-    margin-bottom: 2px;
     padding: 2px 5px 3px;
 }
 
-.nav-menu-item-paginaAtual {
+#nav-menu ul li a {
+    font-weight: bold;
     color: white;
     font-size: 1em;
-    display: inline;
     margin-bottom: 2px;
-    padding: 2px 5px;
-    position: relative;
-    border-bottom: 2px solid white;
+    padding: 3px 6px 4px;
+    text-decoration: none;
 }
 
-.nav-menu-item:hover, .nav-menu-item-paginaAtual:hover {
+#nav-menu ul li a:hover {
     background-color: rgb(255, 255, 255);
     color: #df1b35e0;
+    border-radius: 4px;
+}
+
+body.home #nav-menu a#home,
+body.calendar #nav-menu a#calendar,
+body.references #nav-menu a#references 
+{
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+    cursor: text;
+}
+
+body.home #nav-menu a#home:hover,
+body.calendar #nav-menu a#calendar:hover,
+body.references #nav-menu a#references:hover 
+{
+    background: none;
+    color: white;
 }
 
 /* 
-    Box
+*** Box ***
 */
 #box-about {
     display: flex;

@@ -1,0 +1,153 @@
+/* 
+*** Limpar formatação ***
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+*** Layout ***
+*/
+body {
+    background-color: #f8f8f8;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* 
+*** Formatação elementos textuais ***
+*/
+h1, h2, a {
+    color: #df1b35e0;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+.simbolos {
+    font-weight: bold;
+}
+
+/* 
+*** Menu - Nav. bar ***
+*/
+#nav-menu {
+    background-color: #df1b35e0;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px;
+}
+
+#nav-menu ul {
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
+
+#nav-menu ul li {
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    padding: 2px 5px 3px;
+}
+
+#nav-menu ul li a {
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 2px;
+    padding: 3px 6px 4px;
+    text-decoration: none;
+}
+
+#nav-menu ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #df1b35e0;
+    border-radius: 4px;
+}
+
+body.home #nav-menu a#home,
+body.calendar #nav-menu a#calendar,
+body.references #nav-menu a#references 
+{
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+    cursor: text;
+}
+
+body.home #nav-menu a#home:hover,
+body.calendar #nav-menu a#calendar:hover,
+body.references #nav-menu a#references:hover 
+{
+    background: none;
+    color: white;
+}
+
+/* 
+*** Tabelas ***
+*/
+table {
+    width: 60%;
+    border-collapse: separate;
+    margin: auto;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    color: #df1b35e0;
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+td {
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 1px;
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+.data {
+    text-align: right;
+}
+
+#cabecalho:hover {
+    background-color: #f8f8f8;
+}
+
+tr:hover {
+    background-color: white;
+}

@@ -1,21 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
     <head>
         <title>
             MyCalendar - Referências
         </title>
-        <link rel="stylesheet" href="references.css">
+        <link rel="stylesheet" href="CSS/references.css">
         <meta charset="utf-8">
     </head>
-    <body>
+
+    <body class="references">
+
         <div id="nav-menu">
-            <a href="home.html" class="nav-menu-item">Home</a>
-            <a href="calendar.html" class="nav-menu-item">Calendário</a>
-            <a href="references.html" class="nav-menu-item-paginaAtual">Fontes/Referências</a>
+            <ul>
+                <li><a id="home" href="home.html">Home</a></li>
+                <li><a id="calendar" href="calendar.html">Calendário</a></li>
+                <li><a id="references" href="references.html">Fontes/Referências</a></li>
+            </ul>
         </div>
 
         <h1>Referências</h1>
 
-        <script src="script.js"></script>
+        <table>
+
+            <tr id="cabecalho">
+                <th>Site/link</th>
+                <th>Sobre</th>
+                <th>Data de acesso</th>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.tuasaude.com/como-calcular-o-periodo-fertil/">Tua Saúde</a></td>
+                <td>Cálculo do período fertil</td>
+                <td class="data"></td>
+            </tr>
+
+            <tr class="alternado">
+                <td><a href="https://www.tuasaude.com/ciclo-menstrual/">Tua Saúde</a></td>
+                <td>Ciclo menstrual: o que é, principais fases e sintomas</td>
+                <td class="data"></td>
+            </tr>
+
+        </table>
+
+        <script src="references.js"></script>
+
     </body>
+    
 </html>
