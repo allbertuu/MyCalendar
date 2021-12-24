@@ -7,16 +7,17 @@
 }
 
 /* 
-*** Layout ***
+*** Formatação geral ***
 */
 body {
     background-color: #f8f8f8;
     color: black;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 /* 
-*** Formatação elementos textuais ***
+*** Elementos textuais ***
 */
 h1, h2, a {
     color: #df1b35e0;
@@ -46,6 +47,13 @@ p {
     text-align: justify;
 }
 
+body.calendar p {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
 .simbolos {
     font-weight: bold;
 }
@@ -61,6 +69,12 @@ p {
     align-items: center;
     flex-direction: row;
     margin: 0px;
+}
+
+#nav-menu img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.4;
 }
 
 #nav-menu ul {
@@ -106,6 +120,98 @@ body.references #nav-menu a#references:hover
 {
     background: none;
     color: white;
+}
+
+/* 
+*** Box ***
+*/
+#box {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 60px auto;
+    border: #ebeaea solid 2px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#box h2 {
+    padding: 5px;
+    padding-left: 10px;
+    border-bottom: 5px solid #df1b35e0;
+}
+
+#box p {
+    color: rgba(0, 0, 0, 0.753);
+    padding: 15px;
+    text-align: justify;
+}
+
+/* 
+*** Rodapé ***
+*/
+#rodape {
+    text-align: center;
+}
+
+.credits-creator {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credits-creator p {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.credits-creator h3 {
+    padding: 2px 5px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    background-color: #df1b35e0;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+   
+.credits-creator img {
+    padding: 2px;
+    border-radius: 0 15px;
+    background-color: #df1b35e0;
+    width: 80px;
+    height: 80px;
+}
+
+.credits-creator img.icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -3px;
+    border-radius: 0;
+    background: none;
+}
+
+#direitos {
+    clear: both;
+    margin-top: 20px;
+    padding: 10px;
+    background: #df1b35e0;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.8em;
+    border: 1px ridge white;
+    line-height: 18px;
+}
+
+#direitos a {
+    color: white;
+    font-weight: bold;
 }
 
 /* 
