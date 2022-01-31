@@ -12,7 +12,6 @@
 body {
     background-color: white;
     color: black;
-    min-width: 400px;
 }
 /* 
 *** Animações ***
@@ -230,13 +229,13 @@ div#background-img img {
     border-bottom: 5px solid #df1b35e0;
 }
 
+.area-box {
+    max-width: 500px;
+}
+
 /* 
 *** Rodapé ***
 */
-#rodape {
-    width: fit-content;
-}
-
 .credits-creator {
     justify-content: center;
     align-items: center;
@@ -290,9 +289,7 @@ div#background-img img {
 *** Tabelas ***
 */
 table {
-    width: 60%;
     border-collapse: separate;
-    margin: auto;
 }
 
 th, td {
@@ -322,7 +319,7 @@ tr.alternado {
     text-align: right;
 }
 
-#cabecalho:hover {
+.cabecalho:hover {
     background-color: #f8f8f8;
 }
 
