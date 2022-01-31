@@ -267,9 +267,9 @@ div#background-img img {
     background: #df1b35e0;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-top: 1px ridge white;
-    border-bottom: 1px ridge white;
+    border-radius: 1rem;
     line-height: 1.2em;
+    font-size: 0.8rem;
 }
 
 #copyright * {
@@ -325,4 +325,8 @@ tr.alternado {
 
 tr:hover {
     background-color: white;
+}
+
+.row {
+    margin: 0;
 }
