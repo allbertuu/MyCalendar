@@ -17,8 +17,8 @@
 
 /** Variáveis **/
 :root {
-		 --cor-principal: #df1b35e0;
-		 --cinza: #ebeaea;
+    --red: #df1b35e0;
+	--grey: #ebeaea;
 }
 
 /* 
@@ -82,6 +82,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-style: italic;
+	font-weight: bold;
     margin: 3rem 0;
 }
 
@@ -144,7 +145,7 @@ body.calendar p {
 *** Menu - Nav. bar ***
 */
 nav {
-    background-color: var(--cor-principal);
+    background-color: var(--red);
     box-shadow: 0 2px 10px -2px rgba(36, 40, 44, 0.418);
 }
 
@@ -175,7 +176,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: white;
-    color: var(--cor-principal);
+    color: var(--red);
     border-radius: 4px;
 }
 
@@ -184,7 +185,7 @@ nav button i {
 }
 
 nav button:focus i {
-    color: var(--cor-principal);
+    color: var(--red);
 }
 
 .icon {
@@ -218,7 +219,7 @@ body.references nav a#references:hover
 #box {
     display: flex;
     flex-direction: column;
-    border: var(--cinza) solid 2px;
+    border: var(--grey) solid 2px;
     border-radius: 10px;
     background-color: white;
     animation: box 2.5s;
@@ -227,7 +228,7 @@ body.references nav a#references:hover
 #box h2 {
     padding: 5px;
     padding-left: 10px;
-    border-bottom: 5px solid var(--cor-principal);
+    border-bottom: 5px solid var(--red);
 }
 
 .area-box {
@@ -246,7 +247,7 @@ body.references nav a#references:hover
     padding: 2px 5px;
     padding-bottom: 3px;
     border-radius: 5px;
-    background-color: var(--cor-principal);
+    background-color: var(--red);
     color: white;
     font-weight: bold;
 }
@@ -254,7 +255,7 @@ body.references nav a#references:hover
 .credits-creator img#foto {
     padding: 2px;
     border-radius: 0 15px;
-    background-color: var(--cor-principal);
+    background-color: var(--red);
     width: 80px;
     height: 80px;
 }
@@ -265,7 +266,7 @@ body.references nav a#references:hover
 }
 
 #copyright {
-    background: var(--cor-principal);
+    background: var(--red);
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 1rem;
@@ -298,7 +299,7 @@ th, td {
 }
 
 th {
-    color: var(--cor-principal);
+    color: var(--red);
     text-transform: uppercase;
     border-top: 1px solid #999;
     border-bottom: 1px solid #111;
