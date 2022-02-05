@@ -1,3 +1,5 @@
+<img src="./screenshot-homepage.png" alt="exemplo imagem">
+
 # <b> Introdução ⭐</b>
 O ciclo menstrual é formado por fases. Logo, é de suma importância os mapear da maneira correta em cada individuo, visando suas características individuais. Tudo isso será analisado e levado em conta, relacionando-se com padrões, assim garantindo uma maior precisão dos cálculos.
 
