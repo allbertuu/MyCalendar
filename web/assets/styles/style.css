@@ -75,14 +75,14 @@ body {
 *** Elementos textuais ***
 */
 h1, h2, a {
-    color: var(--cor-principal);
+    color: var(--red);
 }
 
 h1 {
     text-align: center;
     text-transform: uppercase;
     font-style: italic;
-	font-weight: bold;
+    font-weight: bold;
     margin: 3rem 0;
 }
 
@@ -96,7 +96,7 @@ a {
 }
 
 a:hover {
-    color: var(--cor-principal);
+    color: var(--red);
     text-decoration: none;
     font-weight: bold;
 }
