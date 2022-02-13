@@ -1,24 +1,27 @@
-🚀 [Acesse o site aqui!](https://allbertuu.github.io/MyCalendar/) 🚀  
+# MyCalendar
 
-<img src="./screenshot-homepage.png" alt="Screenshot de exemplo - Homepage" style="width: 400px;">
+![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/mycalendar?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/mycalendar?style=for-the-badge)
+<!--![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)-->
 
 > ⭐ Procurando um local para monitorar seus ciclos menstruais de maneira fácil e prática? Esta aplicação foi feita para você.
 
-## <b> Fases 🩸</b>
-Inicialmente, o ciclo menstrual está dividido em 3 fases principais. Sendo elas: _folicular_, _ovulatória_ e _lútea_.
+## Projeto ⭐
+***Preview Home***  
+<img src="./screenshot-homepage.png" alt="Screenshot de exemplo - Homepage" style="width: 400px;">  
+🚀 [Acesse o site aqui!](https://allbertuu.github.io/MyCalendar/) 🚀  
 
-## Como o algoritmo irá operar 🔁
-O ciclo menstrual é formado por fases. Logo, é de suma importância os mapear da maneira correta em cada individuo, visando suas características individuais. Tudo isso será analisado e levado em conta, relacionando-se com padrões, assim garantindo uma maior precisão dos cálculos.
-> Lembrando: todos os dias apresentados são **aproximados**.
-- Menstruação  
-A partir do dia que houve menstruação, inicia-se a contagem de 6 dias de duração. No dia seguinte começa o _período de maturação_.
--  Período de maturação  
-A partir do dia de maturação, inicia-se a contagem de 4 dias de duração. No dia seguinte começa o _período fértil_. 
-- Período fértil  
-A partir do primeiro dia de fertilidade, inicia-se a contagem de 1 semana e 2 dias de duração. No dia seguinte começa o _período "vazio"_.
-- Período "vazio"  
-Dura 1 semana e 1 dia. No dia seguinte começa a menstruação novamente.
+#####
+
+## Tecnologias usadas 💻
+- HTML
+- CSS
+- JavaScript
 
 ## Fontes 💬
 https://www.tuasaude.com/como-calcular-o-periodo-fertil/  
 https://www.tuasaude.com/ciclo-menstrual/
+
+[⬆ Voltar ao topo](#mycalendar)<br>
