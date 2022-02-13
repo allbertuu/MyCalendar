@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)-->
 
-> ⭐ Procurando um local para monitorar seus ciclos menstruais de maneira fácil e prática? Esta aplicação foi feita para você.
+> ⭐ Procurando um local para monitorar seus ciclos menstruais de maneira _fácil_ e _prática_? Então esta aplicação web foi **feita para você**!
 
 ## Projeto ⭐
 ***Preview Home***  
