@@ -13,15 +13,13 @@
 <img src="./screenshot-homepage.png" alt="Screenshot de exemplo - Homepage" style="width: 400px;">  
 🚀 [Acesse o site aqui!](https://allbertuu.github.io/MyCalendar/) 🚀  
 
-#####
-
 ## Tecnologias usadas 💻
 - HTML
 - CSS
 - JavaScript
 
 ## Fontes 💬
-https://www.tuasaude.com/como-calcular-o-periodo-fertil/  
-https://www.tuasaude.com/ciclo-menstrual/
+[Período fértil](https://www.tuasaude.com/como-calcular-o-periodo-fertil/)  
+[Ciclo menstrual](https://www.tuasaude.com/ciclo-menstrual/)
 
 [⬆ Voltar ao topo](#mycalendar)<br>
