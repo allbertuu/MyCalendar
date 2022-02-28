@@ -10,7 +10,7 @@
 
 ## Projeto ⭐
 ***Preview Home***  
-<img src="./screenshot-homepage.png" alt="Screenshot de exemplo - Homepage" style="width: 400px;">  
+<img src="./screenshots/homepage.png" alt="Screenshot de exemplo - Homepage" style="width: 400px;">  
 🚀 [Acesse o site aqui!](https://allbertuu.github.io/MyCalendar/) 🚀  
 
 #####

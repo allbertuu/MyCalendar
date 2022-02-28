@@ -1,2 +1,6 @@
 
-*.txt
+misc
+
+## tailwindcss
+tailwindcss
+main.css
