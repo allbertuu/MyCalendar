@@ -468,13 +468,65 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-/* 
-*** Limpar formatação ***
-*/
+.main {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
 
-* {
-  margin: 0;
-  padding: 0;
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.table {
+  display: table;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 /** Variáveis **/
@@ -496,50 +548,6 @@ body {
 /* 
   *** Animações ***
   */
-
-@-webkit-keyframes box {
-  from {
-    margin-top: -10px;
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes box {
-  from {
-    margin-top: -10px;
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes nav-ul {
-  from {
-    margin-right: -20%;
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes nav-ul {
-  from {
-    margin-right: -20%;
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
 
 @-webkit-keyframes logo {
   from {
@@ -591,14 +599,6 @@ h1, h2, a {
   color: var(--red);
 }
 
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-style: italic;
-  font-weight: bold;
-  margin: 3rem 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -612,17 +612,6 @@ a:hover {
 button:focus {
   outline: white 0.15rem solid;
   background-color: white;
-}
-
-p {
-  text-align: justify;
-}
-
-body.calendar p {
-  margin-left: 3%;
-  margin-right: 3%;
-  font-size: 1.2em;
-  text-align: justify;
 }
 
 .direitos {
@@ -643,12 +632,21 @@ body.calendar p {
 }
 
 #logo .logo-texto {
-  font-size: 1.1em;
   letter-spacing: 1.5px;
-  color: white;
-  font-style: italic;
-  font-weight: bold;
   margin-left: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-style: italic;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  #logo .logo-texto {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 /* 
@@ -657,7 +655,9 @@ body.calendar p {
 
 nav {
   background-color: var(--red);
-  box-shadow: 0 2px 10px -2px rgba(36, 40, 44, 0.418);
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .navbar-collapse {
@@ -720,28 +720,47 @@ body.home nav a#home:hover,
   color: white;
 }
 
-#col-sobre {
-  width: 50%;
-}
-
 /* 
   *** Box ***
   */
 
-#box {
+.box {
+  -webkit-animation: box 2.5s;
+          animation: box 2.5s;
   display: flex;
   flex-direction: column;
-  border: var(--gray) solid 2px;
-  border-radius: 10px;
-  background-color: white;
-  -webkit-animation: box 2.5s;
-  animation: box 2.5s;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow-color: #f87171;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
-#box h2 {
-  padding: 5px;
-  padding-left: 10px;
-  border-bottom: 5px solid var(--red);
+.box h2 {
+  margin-bottom: 0px;
+  padding: 0.25rem;
+  padding-left: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  border-bottom: 0.25rem solid var(--red);
+}
+
+.box p {
+  margin-bottom: 0px;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .area-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .area-box {
@@ -820,21 +839,23 @@ th, td {
 
 th {
   color: var(--red);
-  text-transform: uppercase;
   border-top: 1px solid #999;
   border-bottom: 1px solid #111;
-  text-align: left;
-  font-size: 90%;
   letter-spacing: 0.1em;
+  text-align: left;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
 }
 
 td {
-  border: 1px solid rgb(226, 226, 226);
-  border-radius: 1px;
+  border-radius: 0.25rem;
+  border-width: 1px;
 }
 
 tr.alternado {
-  background-color: #efefef;
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .data {
@@ -847,9 +868,5 @@ tr.alternado {
 
 tr:hover {
   background-color: white;
-}
-
-.row {
-  margin: 0;
 }
   
