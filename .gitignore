@@ -2,5 +2,6 @@
 misc
 
 ## tailwindcss
-tailwindcss
+tailwind.config.js
+build.txt
 main.css
