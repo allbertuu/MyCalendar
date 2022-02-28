@@ -6,14 +6,12 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)-->
 
-> ⭐ Procurando um local para monitorar seus ciclos menstruais de maneira fácil e prática? Esta aplicação foi feita para você.
+> ⭐ Procurando um local para monitorar seus ciclos menstruais de maneira _fácil_ e _prática_? Então esta aplicação web foi **feita para você**!
 
 ## Projeto ⭐
 ***Preview Home***  
 <img src="./screenshots/homepage.png" alt="Screenshot de exemplo - Homepage" style="width: 400px;">  
 🚀 [Acesse o site aqui!](https://allbertuu.github.io/MyCalendar/) 🚀  
-
-#####
 
 ## Tecnologias usadas 💻
 - HTML
@@ -21,7 +19,7 @@
 - JavaScript
 
 ## Fontes 💬
-https://www.tuasaude.com/como-calcular-o-periodo-fertil/  
-https://www.tuasaude.com/ciclo-menstrual/
+[Período fértil](https://www.tuasaude.com/como-calcular-o-periodo-fertil/)  
+[Ciclo menstrual](https://www.tuasaude.com/ciclo-menstrual/)
 
 [⬆ Voltar ao topo](#mycalendar)<br>
