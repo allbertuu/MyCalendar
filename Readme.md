@@ -1,6 +1,6 @@
 # MyCalendar
 
-# ⚠ -- Projeto EM DESENVOLVIMENTO -- ⚠
+## ⚠ -- Projeto EM DESENVOLVIMENTO -- ⚠
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/mycalendar?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/mycalendar?style=for-the-badge)
