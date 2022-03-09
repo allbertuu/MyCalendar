@@ -4,6 +4,7 @@
   "description": "Site para monitoramento do ciclo menstrual do usuário",
   "main": "tailwind.config.js",
   "scripts": {
+    "build": "yarn build",
     "test": "yarn test"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/allbertuu/MyCalendar#readme",
   "dependencies": {
-    "sass": "^1.49.9"
+    "sass": "^1.49.9",
+    "yarn": "^1.22.17"
   }
 }
