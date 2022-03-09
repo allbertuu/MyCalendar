@@ -1,0 +1,27 @@
+{
+  "name": "mycalendar",
+  "version": "1.0.0",
+  "description": "Site para monitoramento do ciclo menstrual do usuário",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allbertuu/MyCalendar.git"
+  },
+  "keywords": [
+    "calendar",
+    "menstruação",
+    "absorvente"
+  ],
+  "author": "Alberto Albuquerque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allbertuu/MyCalendar/issues"
+  },
+  "homepage": "https://github.com/allbertuu/MyCalendar#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
