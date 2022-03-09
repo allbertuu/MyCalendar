@@ -468,17 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-/* Global */
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: 'Sansita Swashed', cursive;
-}
-
 main {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -497,21 +486,12 @@ p {
   margin-right: 0.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .table {
   display: table;
 }
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -522,22 +502,6 @@ p {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-/** Variáveis **/
-
-:root {
-  --red: #df1b35e0;
-  --gray: #ebeaea;
-}
-
-/* 
-  *** Formatação geral ***
-  */
-
-body {
-  background-color: white;
-  color: black;
 }
 
 /* 
@@ -692,49 +656,3 @@ nav button:focus i {
 .small {
   font-size: 70%;
 }
-
-/* 
-  *** Tabelas ***
-  */
-
-table {
-  border-collapse: separate;
-}
-
-th, td {
-  padding: 7px;
-}
-
-th {
-  color: var(--red);
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #111;
-  letter-spacing: 0.1em;
-  text-align: left;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  text-transform: uppercase;
-}
-
-td {
-  border-radius: 0.25rem;
-  border-width: 1px;
-}
-
-tr.alternado {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.data {
-  text-align: right;
-}
-
-.cabecalho:hover {
-  background-color: #f8f8f8;
-}
-
-tr:hover {
-  background-color: white;
-}
-  

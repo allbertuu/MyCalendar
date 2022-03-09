@@ -2,9 +2,45 @@
   background-color: transparent;
 }
 .page nav li#references a {
-  color: #FFF;
+  color: #fff;
   cursor: default;
   transition: none;
+}
+.page table {
+  border-collapse: separate;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.page table tr.alternado {
+  background-color: #f0f1f1;
+}
+.page table th,
+.page table td {
+  padding: 0.5rem;
+}
+.page table th {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  line-height: 1rem;
+  color: var(--red);
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.page table td {
+  border: 1px solid #f1f1f1;
+}
+.page table td.site:hover a {
+  color: var(--red);
+}
+.page table td.site a {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.page table time {
+  display: block;
+  text-align: right;
 }
 
 /*# sourceMappingURL=reference.css.map */

@@ -3,6 +3,16 @@
   --gray: #ebeaea;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Sansita Swashed", cursive;
+  background-color: white;
+}
+
 .page {
   height: 100vh;
 
@@ -28,7 +38,6 @@
 
   // Página
   nav {
-
     #logo {
       text-decoration: none;
     }
@@ -84,11 +93,15 @@
       margin-top: 3rem /* 48px */;
       margin-bottom: 3rem /* 48px */;
 
-      font-size: 48px;
+      font-size: 2.5rem;
       font-family: "Kaushan Script", cursive;
       line-height: 2.25rem /* 36px */;
       text-transform: uppercase;
       text-align: center;
+
+      @media (min-width: 768px) {
+        font-size: 3rem;
+      }
     }
 
     a {
@@ -96,7 +109,6 @@
       font-weight: 500;
       transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
       text-decoration: underline;
-
       &:hover {
         color: var(--red);
       }

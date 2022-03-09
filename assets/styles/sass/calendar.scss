@@ -1,14 +1,12 @@
 .page {
-
   nav {
-
     li#calendar {
       &:hover {
         background-color: transparent;
       }
 
       a {
-        color: #FFF;
+        color: #fff;
         cursor: default;
         transition: none;
       }
@@ -16,7 +14,6 @@
   }
 
   main {
-
     p {
       padding-left: 1rem;
       border-left: 2px solid var(--red);
