@@ -1,0 +1,10 @@
+.page nav li#references:hover {
+  background-color: transparent;
+}
+.page nav li#references a {
+  color: #FFF;
+  cursor: default;
+  transition: none;
+}
+
+/*# sourceMappingURL=reference.css.map */

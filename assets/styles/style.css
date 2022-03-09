@@ -468,29 +468,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.main {
+/* Global */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Sansita Swashed', cursive;
+}
+
+main {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
-h1 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  text-align: center;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-style: italic;
-}
-
 p {
   text-align: justify;
-}
-
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
 }
 
 .mx-auto {
@@ -595,20 +590,6 @@ body {
   *** Elementos textuais ***
   */
 
-h1, h2, a {
-  color: var(--red);
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--red);
-  text-decoration: none;
-  font-weight: bold;
-}
-
 button:focus {
   outline: white 0.15rem solid;
   background-color: white;
@@ -632,11 +613,11 @@ button:focus {
 }
 
 #logo .logo-texto {
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   margin-left: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  font-weight: 700;
+  font-weight: 600;
   font-style: italic;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -647,6 +628,10 @@ button:focus {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+}
+
+#logo .logo-texto {
+  font-family: 'Sansita Swashed', cursive;
 }
 
 /* 
@@ -668,30 +653,6 @@ nav {
   padding: 0.15rem 0.25rem;
 }
 
-body.home nav ul {
-  -webkit-animation: nav-ul 2s;
-  animation: nav-ul 2s;
-}
-
-nav ul li {
-  font-weight: bold;
-  color: white;
-  font-size: 1em;
-  padding: 2px 5px 3px;
-}
-
-nav ul li a {
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  border-radius: 1rem;
-}
-
-nav ul li a:hover {
-  background-color: white;
-  color: var(--red);
-}
-
 nav button i {
   color: white;
 }
@@ -705,102 +666,9 @@ nav button:focus i {
   height: 20px;
 }
 
-body.home nav a#home,
-  body.calendar nav a#calendar,
-  body.references nav a#references 
-  {
-  cursor: text;
-}
-
-body.home nav a#home:hover,
-  body.calendar nav a#calendar:hover,
-  body.references nav a#references:hover 
-  {
-  background: none;
-  color: white;
-}
-
-/* 
-  *** Box ***
-  */
-
-.box {
-  -webkit-animation: box 2.5s;
-          animation: box 2.5s;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.75rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  --tw-shadow-color: #f87171;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.box h2 {
-  margin-bottom: 0px;
-  padding: 0.25rem;
-  padding-left: 0.75rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 700;
-  border-bottom: 0.25rem solid var(--red);
-}
-
-.box p {
-  margin-bottom: 0px;
-  padding: 1rem;
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-@media (min-width: 640px) {
-  .area-box {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.area-box {
-  max-width: 500px;
-}
-
 /* 
   *** Rodapé ***
   */
-
-.credits-creator {
-  justify-content: center;
-  align-items: center;
-}
-
-.credits-creator > * {
-  margin-bottom: 0.8rem;
-}
-
-.credits-creator h3 {
-  padding: 2px 5px;
-  padding-bottom: 3px;
-  border-radius: 5px;
-  background-color: var(--red);
-  color: white;
-  font-weight: bold;
-}
-
-.credits-creator img#foto {
-  padding: 2px;
-  border-radius: 0 15px;
-  background-color: var(--red);
-  width: 80px;
-  height: 80px;
-}
-
-.credits-creator img.icon {
-  width: 20px;
-  height: 20px;
-}
 
 #copyright {
   background: var(--red);

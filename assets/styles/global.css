@@ -1,0 +1,86 @@
+:root {
+  --red: #df1b35e0;
+  --gray: #ebeaea;
+}
+
+.page {
+  height: 100vh;
+}
+.page .navbar-nav .nav-link {
+  padding: 0.5rem;
+}
+.page h1,
+.page h2 {
+  color: var(--red);
+}
+.page a {
+  color: inherit;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.6s;
+  text-decoration: underline;
+}
+.page a:hover {
+  color: var(--red);
+}
+.page nav #logo {
+  text-decoration: none;
+}
+.page nav li {
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+}
+.page nav li:hover {
+  background-color: white;
+}
+.page nav li a {
+  color: white;
+  text-decoration: none;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+.page nav li a:hover {
+  color: var(--red);
+}
+@media (min-width: 768px) {
+  .page nav .separator {
+    color: #a8a8b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page nav .separator::before {
+    content: "";
+    flex: 1;
+    height: 1rem;
+    width: 2px;
+    background: white;
+  }
+  .page nav .separator::before, .page nav .separator::after {
+    margin: 0 10px;
+  }
+}
+.page main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.page main h1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 48px;
+  font-family: "Kaushan Script", cursive;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.page main a {
+  color: inherit;
+  font-weight: 500;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  text-decoration: underline;
+}
+.page main a:hover {
+  color: var(--red);
+}
+
+/*# sourceMappingURL=global.css.map */

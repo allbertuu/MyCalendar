@@ -1,0 +1,15 @@
+.page nav li#calendar:hover {
+  background-color: transparent;
+}
+.page nav li#calendar a {
+  color: #FFF;
+  cursor: default;
+  transition: none;
+}
+.page main p {
+  padding-left: 1rem;
+  border-left: 2px solid var(--red);
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=calendar.css.map */

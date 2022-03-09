@@ -1,0 +1,27 @@
+.page {
+
+  nav {
+
+    li#calendar {
+      &:hover {
+        background-color: transparent;
+      }
+
+      a {
+        color: #FFF;
+        cursor: default;
+        transition: none;
+      }
+    }
+  }
+
+  main {
+
+    p {
+      padding-left: 1rem;
+      border-left: 2px solid var(--red);
+
+      font-size: 1rem;
+    }
+  }
+}

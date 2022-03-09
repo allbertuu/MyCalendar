@@ -1,0 +1,16 @@
+.page {
+
+  nav {
+    li#references {
+      &:hover {
+        background-color: transparent;
+      }
+      
+      a {
+        color: #FFF;
+        cursor: default;
+        transition: none;
+      }
+    }
+  }
+}

@@ -1,16 +1,18 @@
 # MyCalendar
 
+# ⚠ -- Projeto EM DESENVOLVIMENTO -- ⚠
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/allbertuu/mycalendar?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/allbertuu/mycalendar?style=for-the-badge)
 
-<!--<img src="./screenshots/homepage.png" alt="Tela inicial do site">-->
+<!-- <img src="./screenshots/homepage.png" alt="Tela inicial do site"> -->
 
 🚀 [Acesse o site aqui!](https://allbertuu.github.io/MyCalendar/) 🚀  
 
 ## 💬 Sobre o projeto
-> Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em HTML5, CSS3 e Bootstrap 4.
+> Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em HTML5, CSS3, Bootstrap 4 e Sass.
 >
-> Utilizei conceitos avançados de flexbox, grid, responsividade, html semântico e estilização de uma webpage com múltiplas páginas.
+> Utilizei conceitos avançados de flexbox, grid, responsividade e estilização de uma webpage com múltiplas páginas.
 
 ## Tecnologias usadas 💻
 - HTML & CSS
