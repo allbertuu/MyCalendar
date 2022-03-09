@@ -4,7 +4,6 @@
   "description": "Site para monitoramento do ciclo menstrual do usuário",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "yarn build",
     "test": "yarn test"
   },
   "repository": {
