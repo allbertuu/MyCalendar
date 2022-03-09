@@ -7,7 +7,7 @@
 
 <!-- <img src="./screenshots/homepage.png" alt="Tela inicial do site"> -->
 
-🚀 [Acesse o site aqui!](https://allbertuu.github.io/MyCalendar/) 🚀  
+🚀 **Link do site na aba _Sobre_** 🚀  
 
 ## 💬 Sobre o projeto
 > Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em HTML5, CSS3, Bootstrap 4 e Sass.
