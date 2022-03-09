@@ -16,7 +16,8 @@
 
 ## Tecnologias usadas 💻
 - HTML & CSS
-- Bootstrap
+- Bootstrap 4
+- Sass
 
 ## Fontes 💬
 [Período fértil](https://www.tuasaude.com/como-calcular-o-periodo-fertil/)  
